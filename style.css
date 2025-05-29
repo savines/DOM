@@ -26,7 +26,7 @@ html, body {
 .image-container,
 .secondary-image-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ html, body {
 
 .description-text,
 .feedback-text {
-    max-width: 900px;
+    max-width: 800px;
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.7;
