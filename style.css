@@ -97,6 +97,38 @@ html, body {
     text-decoration: underline;
 }
 
+.linkedin-link {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.linkedin-link a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.linkedin-link a:hover {
+    color: #004f7c;
+}
+
+.linkedin-icon {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-link a:hover .linkedin-icon {
+    transform: scale(1.1);
+}
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .buy-button a {
